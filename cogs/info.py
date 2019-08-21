@@ -319,4 +319,4 @@ class Information:
 
 
 def setup(bot):
-	bot.add_cog(Information(bot))
+	bot.load_extension(Information(bot))
