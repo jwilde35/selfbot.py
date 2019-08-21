@@ -34,7 +34,7 @@ import io
 import json
 
 
-class Mod:
+class Mod(commands.Cog):
 
     def __init__(self, bot):
         self.bot = bot
