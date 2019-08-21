@@ -5,7 +5,7 @@ import json
 import aiohttp
 import traceback
 
-class Git:
+class Git(commands.Cog):
     '''Github Cog, facilitates viewing and creating issues'''
     def __init__(self, bot):
         self.bot = bot
