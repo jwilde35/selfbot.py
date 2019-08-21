@@ -309,4 +309,4 @@ class Mod:
 
 
 def setup(bot):
-	bot.add_cog(Mod(bot))
+	bot.load_extension(Mod(bot))
