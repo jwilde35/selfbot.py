@@ -25,7 +25,7 @@ SOFTWARE.
 import discord
 from discord.ext import commands
 from ext.context import CustomContext
-from ext.formatter import EmbedHelp
+from ext.commands.help import HelpCommand
 from collections import defaultdict
 from ext import embedtobox
 import asyncio
@@ -54,7 +54,7 @@ class Selfbot(commands.Bot):
 
     def __init__(self, **attrs):
         super().__init__(command_prefix=self.get_pre, self_bot=True)
-        self.formatter = EmbedHelp()
+        self.HelpCommand = EmbedHelp()
         self.session = aiohttp.ClientSession(loop=self.loop)
         self.process = psutil.Process()
         self.prefix = None
