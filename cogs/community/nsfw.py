@@ -144,4 +144,4 @@ class Nsfw:
 
 
 def setup(bot):
-    bot.add_cog(Nsfw(bot))
+    bot.load_extension(Nsfw(bot))
