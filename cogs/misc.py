@@ -682,4 +682,4 @@ class Misc:
         await ctx.message.edit(text.replace('', ' '))
 
 def setup(bot):
-    bot.add_cog(Misc(bot))
+    bot.load_extension(Misc(bot))
