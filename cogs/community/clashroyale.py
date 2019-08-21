@@ -80,4 +80,4 @@ class ClashRoyale:
 
 
 def setup(bot):
-    bot.add_cog(ClashRoyale(bot))    
+    bot.load_extension(ClashRoyale(bot))    
