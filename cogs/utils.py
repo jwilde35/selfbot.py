@@ -1243,4 +1243,4 @@ Thanks for your understanding.
             await ctx.send('Server removed. Now wait for me to restart!')
     
 def setup(bot):
-    bot.add_cog(Utility(bot))
+    bot.load_extension(Utility(bot))
