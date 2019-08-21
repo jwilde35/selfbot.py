@@ -111,4 +111,4 @@ class Git:
         await ctx.send(embed=em)
 
 def setup(bot):
-    bot.add_cog(Git(bot))
+    bot.load_extension(Git(bot))
