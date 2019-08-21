@@ -149,7 +149,7 @@ class NumericStringParserForPython3(object):
         val=self.evaluateStack( self.exprStack[:] )
         return val
 
-class Misc:
+class Misc(commands.Cog):
     def __init__(self, bot):
         self.bot = bot
         self.emoji_converter = commands.EmojiConverter()
