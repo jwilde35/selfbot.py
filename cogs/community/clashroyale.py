@@ -36,7 +36,7 @@ class ClashRoyale:
                 self.tag = None
             else:
                 self.tag = options['CR_TAG']
-        self.client = crasync.Client()
+        self.client = clashroyale.Client()
     
 
     @commands.command()
