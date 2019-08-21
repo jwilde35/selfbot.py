@@ -25,7 +25,7 @@ SOFTWARE.
 import discord
 from discord.ext import commands
 from ext.context import CustomContext
-from ext.commands.help import HelpCommand
+from ext.help import HelpCommand
 from collections import defaultdict
 from ext import embedtobox
 import asyncio
